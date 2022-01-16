@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(41, 61, 40);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: rgb(27, 58, 43);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 4rem auto;
+    background-color: rgb(238, 235, 238);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    margin-bottom: 0.8rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    width: 75%;
+}
+
+button {
+    display: inline-block;
+    width: 7rem;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgb(226, 183, 201);
+    color: rgb(59, 58, 58);
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(196, 140, 163);
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#chars {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.chars-limit-warning {
+    color:rgb(190, 26, 94);
+}
+
+.input-limit-warning {
+    background-color: rgb(238, 112, 112);
+}
